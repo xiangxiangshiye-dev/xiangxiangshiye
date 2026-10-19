@@ -1,0 +1,1414 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport"
+content="width=device-width,initial-scale=1,view
+port-fit=cover">
+<meta name="theme-color"
+content="#1769aa"><title>热水器安装维修收费单</
+title>
+<style>
+:root{--primary:#1769aa;--bg:#f2f5f9;--card:#fff
+;--text:#182230;--muted:#687386;--line:#dce3eb;-
+-radius:14px}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);font-family:s
+ystem-ui,-apple-system,"Microsoft
+Yalei",sans-serif;color:var(--text)}
+button,input,select,textarea{font: inherit}
+button{border:0;border-radius:10px;padding:10px
+14px;background:var(--primary);color:#fff;font-w
+eight:600;cursor:pointer}.secondary{background:#
+e8eef5;color:#26384b}.danger{background:#c83d4d}
+.top{background:var(--primary);color:white paddi
+ng:17pX
+16px;position:sticky;top:0;z-index:5;box-shadow:
+0 2px 8px #0001}.top h1{font-size:20px;margin:o
+0 4px}.top
+p{font-size:12px;margin:0;opacity:.85}.tabs{disp
+lay:flex;gap:8px;padding:12px;overflow:auto;back
+ground:white;position:sticky;top:68px;z-index:4}
+.tabs
+button{white-space:nowrap;background:#edf2f7;col
+or:#34445a}.tabs
+button.active{background:var(--primary);color:#f
+ff}.wrap{max-width: 980px;margin:auto;padding:12p
+x}.panel{display:none}.panel.active{display:bloc
+k}.card{background:var(--card);border-radius:var
+(--radius):nadding:16px;margin-bottom:12px;box-s
+hadow:0 2px 10px #152b450a}.card
+h2{font-size:16px;margin:o o
+12px}.grid{display:grid;grid-template-columns: re
+peat(2,minmax(0,1fr));gap:10px}.field
+label{display:block;color:var(--muted);font-size
+:12px;margin-bottom:5px}.field input,.field
+select,.field
+textarea{width:100%;padding:10px;border:1px
+solid
+var(--line);border-radius:9px;background:#fff;mi
+n-width:0}.field
+textarea{min-height:70px;resize:vertical}.wide{g
+rid-column:1/-1}.row{display:flex;align-items:ce
+nter;gap:8px;flex-wrap:wrap}.row>*{flex:1}.small
+
+{font-size:12px;color: var(--muted)}.tablewrap{ov
+erflow:auto}
+table{width:100%;border-collapse:collapsemin-wi
+dth:550px}th,td{padding:9px
+6px;border-bottom:1px solid
+var(--line);text-align:left;font-size:13px}
+th{background:#f7f9fc;color:#586477}td input,td
+select{width:100%;min-width:55px;padding:7px;bor
+der:1px solid
+var(--line);border-radius:7px}.total{font-size:2
+2px;color:var(--primary);font-weight:800}.action
+s{display:flex;gap:8px;flex-wrap:wrap}.actions
+button{flex:1;min-width:110px}.invoice{position:
+relative;background:#fff;padding:22px;border:1px
+solid
+#d4dbe4;overflow:hidden;min-height:380px}.invoic
+e:before{content:attr(data-watermark);position: a
+bsolute;left:50%;top:50%;transform:translate(-50
+%,-50%)
+rotate(-28deg);font-size:clamp(28px,7vw,60px);fo
+nt-weight:800;color:var(--wm,#1769aa);opacity:.0
+9;white-space:nowrap;pointer-events:none}.invoic
+e>*{position:relative}.inv-head{text-align:cente
+r;border-bottom:2px solid
+var(--primary);padding-bottom:12px;margin-bottom
+:12px}.inv-head h2{font-size:24px;margin:o o
+7px;color:var(--primary)}.inv-head .sub{font-siz
+e:12px;color:#5b6574}.inv-meta{display:grid;grid
+-template-columns:1fr
+1fr;gap:7px;font-size:13px;margin-bottom:12px}.i
+nv-meta span{border-bottom:1px dotted
+#aaa;padding:4px
+0}.inv-table{min-width:0}.inv-table
+th,.inv-table td{font-size:12px;padding:7px
+4px}.inv-foot{display:flex;justify-content:space
+-between;align-items:flex-end;gap:12px;margin-to
+p:15px;font-size:13px}.stamp{width:90px;height: 9
+Opx;border:3px solid
+#d33;color:#d33;border-radius:50%;display:flex;a
+lign-items:center;justify-content:center;text-al
+ign:center;font-weight:800;font-size:14px;transf
+orm:rotate(-12deg);opacity:.85;white-space:pre-l
+ine;overflow:hidden}.stamp
+img{width:100%; height:100%;object-fit: contain}.p
+review-tools{display:flex;gap:8px;flex-wrap: wrap
+;margin-bottom:10px}.designer{display:grid;grid-
+template-columns:1fr
+1fr;gap:12px}.design-canvas{min-height:250px;bor
+der:2px dashed
+#9db3c8;border-radius:12px;background:#f9fbfd;pa
+dding:10px;display:flex;flex-wrap:wrap;align-con
+tent:flex-start;gap:8px}.design-item{background:
+white;border:1px solid
+#a9bfd3;padding:10px;border-radius:8px;cursor:gr
+ab;user-select:none;touch-action: pan-y}.design-i
+tem. selected{outline:2px solid
+var(--primary)}.design-props{background:#f7f9fc;
+border-radius:10px;padding:12px}.history-item{pa
+dding:12px;border:1px solid
+var(--line);border-radius:10px;margin:8px
+0;background:#fff}.history-item
+strong{display:block}.hidden{display:none!
+important}.hint{background:#fff8e8;color:#805b16
+;padding:10px;border-radius:9px;font-size:12px;m
+argin-bottom:10px}.toast{position:fixed;bottom: 2
+opx;left:50%;transform:translatex(-50%);backgrou
+nd:#1c2938;color:#fff;padding:10px
+16px;border-radius:30px;z-index:20;display:
+none;max-width:90%;text-align:center}@media(max
+-width:650px){.grid{grid-template-columns:1fr
+1fr}.designer{grid-template-columns:1fr}.invoice
+{padding:14px}.inv-head
+h2{font-size:21px}.inv-foot{align-items:flex
+-start}.stamp{width:72px;height:72px;font-size:
+11px}}@media
+print{body{background:white}.top,.tabs,.no-print
+,.toast{display:none!
+important}.wrap{padding:0;max-width: none}.panel{
+display:nonelimportant}
+#preview.panel{display:block!
+important}.card{box-shadow:none;margin:0;padding
+:0}.invoice{border:0;padding:8mm;min-height:o}.i
+nvoice:before{opacity:.09}button{display:none!
+important}}
+@media(max-width:650px){.tabs{top:68px}.tabs
+button{padding:9px 11px;font-size:12px}}
+</style></head>
+<body>
+<header class="top"><h1 id="appTitle">热水器安装维
+修收费单</h1><p>离线可用·单据管理.自定义模板·打
+印/保存PDF</p></header>
+<nav class="tabs no-print"><button
+class="active" data-tab="edit">填写单据</
+button><button data-tab="preview">单据预览</
+button><button data-tab="designer">可视化设计</
+button><button data-tab="history">历史记录</
+button><button data-tab="customers">客户档案</
+button><button data-tab="settings">软件设置</
+button></nav>
+<main class="wrap">
+<section class="panel active" id="edit">
+<div class="card"><h2>单据基本信息</h2><div
+class="grid">
+<div class="field"><label>单号</label><input
+id="billNo" readonly></div><div
+class="field"><label>日期</label><input
+id="billDate" type="date"></div>
+<div class="field"><label>客户姓名</label><input
+id="customer"placeholder="请输入客户姓名"></
+div><div class="field"><label>联系电话</
+label><input id="phone" inputmode="tel"
+placeholder="请输入联系电话"></div>
+<div class="field wide"><label>安装/维修地址</
+label><input id="address"placeholder="省市区、街
+道、小区及门牌号"></div>
+<div class="field"><label>热水器品牌/型号</
+label><input id="model" placeholder="品牌、型号
+(选填)"></div><div class="field"><label>服务人员
+</label><input id="worker" placeholder="维修师傅姓
+名"></div>
+<div class="field wide"><label>故障描述/服务备注
+</label><textarea id="notes" placeholder="例如:
+更换点火器，检查燃气管路.……"></textarea></div>
+</div></div>
+<div class="card"><div class="row"><h2
+style="margin:0;flex:1">安装维修项目</h2><button
+id="addItem">+添加项目</button></div><div
+class="tablewrap"><table><thead><tr><th>项目名称
+</th><th>数量</th><th>单位</th><th>单价（元)
+th><th>金额（元)</th><th>操作</th></tr></
+</
+thead><tbody id="itemsBody"></tbody></table></
+div>
+<div class="grid" style="margin-top:12px"><div
+class="field"><label>优惠金额（元)</label><input
+id="discount" type="number" min="0" step="0.01"
+value="0"></div><div class="field"><label>收款方
+式</label><select id="payment"><option>现金</
+option><option>微信</option><option>支付宝</
+option><option>银行卡</option><option>未收款</
+option><option>其他</option></select></div><div
+class="field wide"><label>收款备注</label><input
+id="payNote"placeholder="例如：已收全款/尚欠金
+额"></div></div>
+<div class="row"
+style="margin-top:14px"><div><div class="small">
+项目合计</div><div id="subtotal"
+class="total">¥0.00</div></div><div><div
+class="small">实收金额</div><div id="grandTotal"
+class="total">￥0.00</div></div></div>
+<div class="actions"
+style="margin-top:14px"><button id="saveBtn">保存
+单据</button><button class="secondary"
+id="previewBtn">预览单据</button><button
+class="secondary" id="newBtn">新建单据</button></
+div>
+</div></section>
+<section class="panel" id="preview"><div
+class="card"><div class="preview-tools
+no-print"><button id="printBtn">打印/保存为
+PDF</button><button class="secondary"
+id="editBack">返回修改</button><button
+class="secondary" id="exportone">导出本单JSON</
+button></div><div class="invoice" id="invoice"
+data-watermark="售后服务"><div
+class="inv-head"><h2 id="invCompany">热水器安装维
+修收费单</h2><div class="sub"id="invSubtitle">专
+业服务，明码标价·诚信经营</div></div><div
+class="inv-meta" id="invMeta"></div><table
+class="inv-table"><thead><tr><th>服务项目</
+th><th>数量</th><th>单位</th><th>单价</th><th>金额
+</th></tr></thead><tbody id="invItems"></
+tbody></table><div
+style="display:flex;justify-content:flex-end;gap
+:18px;margin-top:12px;font-size:13px"><span>项目
+合计:<b id="invSubtotal">￥0.00</b></span><span>
+优惠：<b id="invDiscount">￥0.00</b></span></
+div><div
+style="text-align:right;font-size:20px;font-weig
+ht:800;color:var(--primary);margin-top:8px">实收
+金额：<span id="invTotal">¥0.00</span></div><div
+id="invNotes"
+style="margin-top:14px;font-size:12px;white-spac
+e:pre-wrap"></div><div
+class="inv-foot"><div><div>收款方式：<b
+id="invPayment">现金</b></div><div
+style="margin-top:7px">服务人员：<span
+id="invWorker">_
+_</span></div><div
+style="margin-top:14px">维修人员签字:
+客户签字：_
+__</div><div style="margin-top:10px">
+_</div></div><div
+style="display:flex;align-items:center;gap:10px/
+flex-wrap:wrap;justify-content:flex-end"><div
+id="stampArea"class="stamp">售后服务<br>专用章</
+div><div id="qrArea"
+style="display:none;text-align:center;font-size:
+10px;color:#555"><img id="invQr"alt="收款二维码”
+style="width:82px;height:82px;object-fit:contain
+;display:block"><span id="qrCaption">扫码付款</
+span></div></div></div><divid="invFooter"
+style="font-size:11px;text-align:center;color:#6
+b7280;margin-top:14px">感谢您的信任，欢迎再次联系！</
+div></div></div></section>
+<section class="panel" id="designer"><div
+class="card"><h2>可视化单据设计器</h2><div
+class="hint">点选下方组件后，可修改文字、字号、颜色和显
+示状态；可拖动组件调整顺序。点击“应用设计”保存并更新预
+览。部分复杂排版可继续用模板设置调整。</div><div
+class="designer"><div><div class="small"
+style="margin-bottom:8px">组件区（拖动排序，点击选
+中)</div><div class="design-canvas"
+id="designCanvas"><div class="design-item"
+draggable="true" data-key="title">单据标题</
+div><div class="design-item" draggable="true"
+data-key="subtitle">副标题</div><div
+class="design-item" draggable="true"
+data-key="customer">客户信息</div><div
+class="design-item" draggable="true"
+data-key="items">项目明细表</div><div
+class="design-item" draggable="true"
+data-key="total">实收金额</div><div
+class="design-item" draggable="true"
+data-key="notes">服务备注</div><div
+class="design-item" draggable="true"
+data-key="stamp">圆形印章</div><div
+class="design-item" draggable="true"
+data-key="footer">页脚文字</div></div></div><div
+class="design-props"><h2>组件属性</h2><div
+class="field"><label>当前组件</label><input
+id="propName" readonly value="单据标题"></
+div><div class="field"
+style="margin-top:9px"><label>显示文字（如适用）</
+label><input id="propText"placeholder="输入组件文
+字"></div><div class="grid"
+style="margin-top:9px"><div
+class="field"><label>字号（px)</label><input
+id="propSize" type="number" min="10" max="48"
+value="24"></div><div class="field"><label>文字颜
+色</label><input id="propColor" type="color"
+value="#1769aa"></div></div><div class="field"
+style="margin-top:9px"><label><input
+type="checkbox" id="propVisible" checked
+style="width:auto">显示此组件</label></
+div><button id="applyDesign"
+style="margin-top:10px;width:100%">应用设计<1
+button><button id="resetDesign"
+class="secondary"
+style="margin-top:8px;width:100%">恢复默认布局<1
+button></div></div></div></section>
+<section class="panel" id="customers"><div
+class="card"><h2>客户档案</h2><p class="small">客
+户信息在保存收费单时自动归档；可按姓名、电话或地址搜索，
+点击“填入新单”可快速带入客户资料。</p><div
+class="field"><label>搜索客户</label><input
+id="customerSearch" placeholder="输入客户姓名、电话
+或地址"></div><div id="customerList"></div></
+div></section>
+<section class="panel" id="history"><div
+class="card"><h2>历史单据</h2><div
+class="row"><div class="field"><label>搜索单号/
+姓名/电话</label><input id="historysearch"
+placeholder="输入关键词搜索"></div><button
+id="exportAll" class="secondary">导出全部JSON</
+button><button id="importBtn" class="secondary">
+导入备份</button><input id="importFile"
+class="hidden" type="file" accept="application/
+json"></div><div_id="historyList"></div></div></
+section>
+<section class="panel" id="settings"><div
+class="card"><h2>软件与单据设置</h2><div
+class="grid"><div class="field"><label>店铺/公司名
+称</label><input id="setCompany"value="热水器安装
+维修收费单"></div><div class="field"><label>单据副
+标题</label><input id="setsubtitle"value="专业服
+务·明码标价·诚信经营"></div><div
+class="field"><label>主题颜色</label><input
+id="setcolor" type="color" value="#1769aa"></
+div><div class="field"><label>水印文字</
+label><input id="setWatermark" value="售后服
+务"></div><div class="field"><label>印章文字（分行
+输入）</label><input id="setstamp"value="售后服务
+\n专用章"></div><div class="field"><label>页脚文字
+</label><input id="setFooter" value="感谢您的信
+任，欢迎再次联系！"></div><div class="field
+wide"><label>上传圆形印章图片（可选 PNG/JPG)</
+label><input id="stampupload" type="file'
+accept="image/*"><div class="small">仅用于制作单据
+外观。请只使用有权使用的印章图片；正式业务请遵守当地印章
+及票据规定。</div></div><div class="field
+wide"><label>水印颜色</label><input
+id="setwatermarkColor" type="color"
+value="#1769aa"></div><div class="field
+wide"><label>上传收款二维码图片（微信/支付宝等，可选)
+</label><input id="qrUpload" type="file
+accept="image/*"><div class="small">建议上传清晰的
+收款码图片；打印前请用另一台手机测试扫码。</div><div
+class="row"><button type="button"
+class="secondary" id="clearQr">清除二维码</
+button><input id="qrCaptionInput"
+placeholder="二维码下方文字，例如：微信收款”
+value="扫码付款"></div></div></div><div
+class="card"><h2>商品与配件项目库</h2><p
+class="small">把常用商品、配件或服务项目保存到项目库，
+开单时输入名称即可自动匹配单位和单价。数据保存在本机。</
+p><div class="grid"><div class="field"><label>项
+目/商品名称</label><input id="catalogName
+placeholder="例如：燃气阀、热水器主机"></div><div
+class="field"><label>默认单位</label><input
+id="catalogUnit"placeholder="个、台、根、次"></
+div><div class="field"><label>默认单价（元)</
+label><input id="catalogPrice" type="number"
+min="0" step="0.01" value="0"></div><div
+class="field" style="align-self:end"><button
+id="addCatalog">添加到项目库</button></div></
+div><div id="catalogList"></div></div><div
+class="actions" style="margin-top:14px"><button
+id="saveSettings">保存设置</button><button
+id="resetsettings"class="secondary">恢复默认<1
+button></div><p class="small">数据默认保存在当前设备
+浏览器本地。清除应用数据或更换设备前，请先导出备份。打印
+页面可选择“另存为 PDF"。</p></div></section>
+</main><div class="toast" id="toast"></div>
+<script>
+const $=id=>document.getElementById(id);const
+money=n=>'￥'+(Number(n)||0).toFixed(2);const
+today=()=>new
+Date().toISOString().slice(0,10);const
+genNo=()=>{let d=new Date();return
+'HW'+d.getFullYear()+String(d.getMonth()
++1).padstart(2，'0')
++String(d.getDate()).padstart(2，'0')
++'-'+String(d.getHours()).padstart(2,'0')
++String(d.getminutes()).padstart(2,'0')
++String(d.getseconds()).padStart(2,'0')};
+const presets=[['上门检查费’，1,'次'，30]，['热水器安装
+费’，1,'台’，150]，['热水器拆旧费‘，1,'台’，50]，['清洗保
+养'，1，'台'，80]，['更换点火器’，1，'个'，80]，['更换电磁
+阀'，1,'个'，120]，['更换水阀’，1，'个'，35]，['更换燃气
+管'，1,‘米’,30]，['更换排烟管’，1，'根'，35]，['更换花洒/
+软管’，1，'套’，30]，['故障维修工时费’，1,‘次’，80]，['材料
+费（自填）'，1,'项'，0]];let items=[];let
+settings={company:'热水器安装维修收费
+单's1h+i+1e.'专业服务.明码标价.诚信经
+营'，color:'#1769aa',watermark:'售后服务'，stamp:'售
+后服务\n专用章'，footer：'感谢您的信任，欢迎再次联
+系！',wmColor:'#1769aa',stampData:'',qrData:'',qr
+Caption:'扫码付款'}；let design={};let
+selectedkey='title';
+function toast(t){$('toast').textContent=t;$
+('toast').style.display='block';setTimeout(()=>$
+('toast').style.display='none', 2200)}function
+val(id){return $(id).value.trim()}function
+setTab(name)
+{document.querySelectorAll('.panel').forEach(p=>
+p.classlist.toggle('active',p.id===name));docume
+nt.querySelectorAll('.tabs
+button').forEach(b=>b.classList.toggle('active',
+b.dataset.tab===name));if(name==='preview')rende
+rInvoice();if(name==='history')renderHistory();i
+f(name==='customers')renderCustomers();if(name==
+='settings')renderCatalog()};document.querySelec
+torAll('.tabs
+button').forEach(b=>b.onclick=()=>setTab(b.datas
+et.tab));
+function allPresets(){let
+extra=JSON.parse(localStorage.getItem('hwCatalog
+')||'[]');return
+[...presets,...extra.filter(x=>!
+presets.some(p=>p[O]===x[O])).map(x=>[x[O]，1,×[1
+],x[2]])]}function
+addItem(data={name:'',qty:1,unit:'项',price:0})
+{items.push({...data});renderItems()}function
+renderItems(){let body=$
+('itemsBody');body.innerHTML='';items.forEach((i
+t,i)=>{let
+tr=document.createElement('tr');tr.innerHTML=`<t
+d><input aria-label="项目名称"data-i="${i}"
+data-k="name" list="presetList" value="$
+{esc(it.name)}" placeholder="选择或输入项目"></
+td><td><input type="number" min="0" step="0.01"
+data-i="${i}" data-k="qty" value="${it.qty}"></
+td><td><input data-i="${i}" data-k="unit"
+value="${esc(it.unit)}"></td><td><input
+type="number" min="0" step="0.01" data-i="${i}"
+data-k="price" value="${it.price}"></td><td
+class="lineTotal">${money(it.qty*it.price)}</
+td><td><button class="danger" data-del="${i}"
+style="padding:6px 9px">删除</button></
+td>`;body.appendChild(tr)});let
+dl=document.createElement('datalist');dl.id='pre
+setList';allPresets().forEach(p=>{let
+o=document.createElement('option');o.value=p[O];
+dl.appendchild(o)});body.appendchild(dl);body.qu
+erySelectorAll('input').forEach(inp=>inp.oninput
+=（)=>{let
+i=+inp.dataset.i,k=inp.dataset.k;items[i]
+[k]=k==='qty'||k==='price'?(Number(inp.value)||
+0):inp.value;if(k==='name'){let
+p=allPresets().find(x=>x[O]===inp.value);if(p)
+{items[i].unit=p[2];items[i].price=p[3];renderIt
+ems();return}}
+calc()});body.querySelectorAll('[data-del]').for
+Each(b=>b.onclick=()=>{items.splice(+b.dataset.d
+el,1);renderItems()});calc()}
+function calc(){let sub=items.reduce((s,×)=>s+
+(Number(x.qty)||0)*(Number(x.price)||
+0),0),dis=Math.max(0,Number($
+('discount').value)||
+0),total=Math.max(o,sub-dis);$
+('subtotal').textcontent=money(sub);$
+('grandTotal').textContent=money(total);return{s
+ub,dis,total}}
+function esc(s){return String(s??'').replace(/
+[&<>"']/
+g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&q
+uot;',"'":'&#39;'}[c]))}
+function getData(){let
+c=calc();return{billNo:val('billNo'),date:val('b
+illDate'),customer:val('customer'),phone:val('ph
+one'),address:val('address'),model:val('model')，
+worker:val('worker'),notes:val('notes'),items:JS
+ON.parse(JSON.stringify(items)),discount:c.dis,s
+ubtotal:c.sub,total:c.total,payment:val('payment
+'),payNote:val('payNote'),savedAt:new
+Date().toISoString()}}
+function fillData(d){$
+('billNo').value=d.billNo||genNo();$
+('billDate').value=d.date||today();
+['customer','phone','address','model','worker','
+notes','payment','payNote'].forEach(k=>{if(d[k]!
+==undefined)$(k).value=d[k]});$
+('discount').value=d.discount||
+0;items=Array.isArray(d.items)?d.items:
+[];renderItems();renderInvoice()}
+function renderInvoice(){let d=getData();$
+('invCompany').textContent=settings.company;$
+('invSubtitle').textContent=settings.subtitle;$
+('invoice').dataset.watermark=settings.watermark
+;$
+('invoice').style.setproperty('--wm',settings.wm
+Color);$('invMeta').innerHTML=[['单号',d.billNo]，
+['日期'，d.date]，['客户姓名'，d.customer||'-']，['联系
+电话'，d.phone||'-']，['服务地址'，d.address||'-']，
+['热水器品牌/型
+号',d.model||'-']].map(x=>`<span><b>${x[O]}:</
+b>${esc(x[1])}</span>`).join('');$
+('invItems').innerHTML=d.items.map(x=>`<tr><td>$
+{esc(x.name||'-')}</td><td>${Number(x.qty)||0}</
+td><td>${esc(x.unit||'')}</td><td>$
+{money(x.price)}</td><td>$
+{money((Number(x.qty)||0)*(Number(x.price)||0))}
+</td></tr>`).join('')||'<tr><td colspan="5"
+style="text-align:center">暂无项目</td></tr>'；$
+('invSubtotal').textcontent=money(d.subtotal);$
+('invDiscount').textContent=money(d.discount);$
+('invTotal').textContent=money(d.total);$
+('invNotes').textContent=(d.notes?'服务备
+注：'+d.notes+'\n':'')+(d.payNote?'收款备
+注：'+d.payNote:'');$
+('invPayment').textContent=d.payment;$
+('invworker').textcontent=d.worker||'_
+('invFooter').textContent=settings.footer;$
+('qrCaption').textContent=settings.qrCaption||'
+扫码付款'；$
+('qrArea').style.display=settings.qrData?'block
+:'none';if(settings.qrData)$
+('invQr').src=settings.qrData;$
+('stampArea').innerHTML=settings.stampData?`<img
+alt="印章图片”src="$
+{settings.stampData}">`:esc(settings.stamp).repl
+ace(/\n/g,'<br>').replace(/\n/
+g,'<br>');applyDesignToInvoice()}
+function saveRecord(){let d=getData();if(!
+d.customer&&!d.phone&&!d.address){if(!
+confirm('客户信息尚未填写，仍要保存吗？'))return}let
+list=JSoN.parse(localStorage.getItem('hwBills')|
+|'[]');let
+idx=list.findIndex(x=>x.billNo===d.billNo);if(id
+x>=0)list[idx]=d;else
+list.unshift(d);localStorage.setItem('hwBills',J
+SoN.stringify(list));if(d.customer||d.phone){let
+cs=JSON.parse(localStorage.getItem('hwCustomers'
+)||'[]');let
+ci=cs.findIndex(x=>(d.phone&&x.phone===d.phone)|
+|(!d.phone&&x.customer===d.customer));let
+c={customer:d.customer,phone:d.phone,address:d. a
+ddress,model:d.model,worker:d.worker,updatedAt:d
+.date};if(ci>=0)cs[ci]={...cs[ci],...c};else
+cs.unshift(c);localStorage.setItem('hwCustomers'
+，JSON.stringify(cs))}toast('单据已保存到本
+机');renderHistory();rendercustomers()}
+function renderHistory(){let
+q=val('historySearch').tolowerCase(),list=JSON.p
+arse(localStorage.getItem('hwBills')||'[]').filt
+er(d=>[d.billNo,d.customer,d. phone,d.address].jo
+in('').toLowerCase().includes(q));$
+('historyList').innerHTML=list.map(d=>`<div
+class="history-item"><strong>$
+{esc(d.customer||'未填写客户')}·$
+{money(d.total)}</strong><div class="small">$
+{esc(d.billNo)}${esc(d.date)}$
+{esc(d.phone||'')}</div><div class="actions"
+style="margin-top:8px"><button data-load="$
+{esc(d.billNo)}">打开修改</button><button
+class="secondary" data-show="${esc(d.billNo)}">
+预览</button><button class="danger"
+data-remove="${esc(d.billNo)}">删除</button></
+div></div>`).join('')||'<p class="small">暂无匹配
+记录</p>'；$
+('historyList').queryselectorAll('[data-load]').
+forEach(b=>b.onclick=()=>{let
+d=JSON.parse(localstorage.getItem('hwBills')||'[
+]').find(x=>x.billNo===b.dataset.load);if(d)
+{fillData(d);setTab('edit')}});$
+('historyList').querySelectorAll('[data-show]').
+forEach(b=>b.onclick=()=>{let
+d=JSON.parse(localstorage.getItem('hwBills')||'[
+]').find(x=>x.billNo===b.dataset.show);if(d)
+{fillData(d);setTab('preview')}});$
+('historyList').queryselectorAll('[data-remove]'
+).forEach(b=>b.onclick=()=>{if(confirm('确定删除这
+张历史单据吗？'))
+{localStorage.setItem('hwBills',JsoN.stringify(J
+SoN.parse(localStorage.getItem('hwBills')||'[]')
+.filter(x=>x.billNo!
+==b.dataset.remove)));renderHistory()}})}
+function savesettings()
+{settings={...settings,company:val('setCompany')
+||'热水器安装维修收费
+单'，subtitle:val('setSubtitle'),color:val('setco
+lor'),watermark:val('setWatermark'),stamp: val('s
+etstamp'),footer:val('setFooter'),wmColor:val('s
+etWatermarkColor'), stampData:settings.stampData|
+|'',qrData:settings.qrData||'',qrcaption:val('qr
+CaptionInput')||'扫码付
+款'};localStorage.setItem('hwsettings',JsoN.stri
+ngify(settings));document.documentElement.style.
+setproperty('--primary',settings.color);$
+('appTitle').textContent=settings.company;render
+Invoice();toast('设置已保存’）}
+function loadSettings(){let
+s=JSON.parse(localStorage.getItem('hwsettings')|
+|'null');if(s)settings={...settings,...s};$
+('setCompany').value=settings.company;$
+('setSubtitle').value=settings.subtitle;$
+('setcolor').value=settings.color;$
+('setwatermark').value=settings.watermark;$
+('setStamp').value=settings.stamp;$
+('setFooter').value=settings.footer;$
+('setwatermarkColor').value=settings.wmColor;$
+('qrCaptionInput').value=settings.qrcaption||'扫
+码付
+款'；document.documentElement.style.setproperty('
+--primary',settings.color);$
+('appTitle').textcontent=settings. company}
+function selectDesign(key)
+{selectedKey=key; document.querySelectorAll('.des
+ign-item').forEach(x=>x.classList.toggle('select
+ed',x.dataset.key===key));let d=design[key]||{};
+$（'propName').value=({title:'单据标
+题'，subtitle:'副标题'，customer：'客户信息'，items:'项
+目明细表'，total:'实收金额'，notes：‘服务备
+注'，stamp:'圆形印章'，footer:'页脚文字'})[key]||key；
+$('propText').value=d.text||'';$
+('propSize').value=d.size||
+({'title':24,subtitle:12,customer:13,items:12,to
+tal:20,notes:12,stamp:14,footer:11}[key]);$
+('propColor').value=d.color||settings.color;$
+('propVisible').checked=d.visible!==false}
+document.querySelectorAll('. design-item').forEac
+h(el=>{el.onclick=()=>selectDesign(el.dataset.ke
+y);el.addEventListener('dragstart',e=>{e.dataTra
+nsfer.setData('text/
+plain',el.dataset.key)});el.addEventListener('dr
+agover',e=>e.preventDefault());el.addEventListen
+er('drop',e=>{e.preventDefault();let
+from=e.dataTransfer.getData('text/
+plain'),to=el.dataset.key;if(from===to)return;le
+t canvas=$
+('designCanvas'),a=canvas.querySelector(`[data-k
+ey="${from}"]`);canvas.insertBefore(a,el);});});
+$
+('applyDesign').onclick=()=>{design[selectedKey]
+={text:val('propText'),size:Number($
+('propSize').value)||
+14,color:val('propColor'),visible:$
+('propVisible').checked};localStorage.setItem('h
+wDesign',JSoN.stringify(design));applyDesignToIn
+voice();toast('设计已应用')};function
+applyDesignToInvoice(){let map={title:$
+('invCompany'),subtitle:$
+('invSubtitle'),customer:$
+('invMeta'),items:document.queryselector('.inv-t
+able'),total:$('invTotal').parentElement,notes:$
+('invNotes'),stamp:$('stampArea'),footer:$
+('invFooter')};object.entries(map).forEach(([k,e
+1])=>{let d=design[k]|l
+{};el.style.display=d.visible===false?'none':'';
+if(d.size)el.style.fontSize=d.size+'px';if(d.col
+or)el.style.color=d.color;if(d.text&&['title','s
+ubtitle','stamp','footer'].includes(k))
+{if(k==='stamp'&&!
+settings.stampData)el.innerHTML=esc(d.text).repl
+ace(/\n/g,'<br>');else if(k!
+=='stamp')el.textContent=d.text}})}
+$
+('addItem').onclick=()=>addItem({name:'',qty:1,u
+nit:'项',price:0});$('discount').oninput=calc;$
+('saveBtn').onclick=saveRecord;$
+('previewBtn').onclick=()=>setTab('preview');$
+('editBack').onclick=()=>setTab('edit');$
+('printBtn').onclick=()=>window.print();$
+('newBtn').onclick=()=>{if(confirm('新建单据？未保
+存的内容不会自动进入历史记录。‘))
+{fillData({billNo:genNo(),date:today(),items:
+[]});setTab('edit')}};$
+('saveSettings').onclick=saveSettings;$
+('resetsettings').onclick=()=>{if(confirm('恢复默
+认设置？'))
+{localStorage.removeItem('hwsettings');settings=
+{company:'热水器安装维修收费单'，subtitle:'专业服务·
+明码标价·诚信经营'，color:'#1769aa',watermark:'售
+后服务'，stamp:'售后服务\n专用章’，footer：'感谢您的信
+任，欢迎再次联
+系！',wmColor:'#1769aa',stampData:''};loadsetting
+s（);renderInvoice()}};$
+('historySearch').oninput=renderHistory;$
+('customerSearch').oninput=renderCustomers;funct
+ion rendercustomers(){let q=($
+('customerSearch')?.value||'').toLowerCase();let
+cs=JSON.parse(localStorage.getItem('hwCustomers'
+)||'[]').filter(c=>[c.customer,c.phone,c.address
+,c.model].join('').toLowerCase().includes(q));$
+('customerList').innerHTML=cs.map((c,i)=>`<div
+class="history-item"><strong>$
+{esc(c.customer||'未命名客户')}</strong><div
+class="small">电话：${esc(c.phone||'-')}<br>地址:
+${esc(c.address||'-')}<br>热水器：$
+{esc(c.model||'-')}</div><div class="actions"
+style="margin-top:8px"><button data-customer="$
+{i}">填入新单</button><button class="danger"
+data-customer-del="${i}">删除档案</button></
+div></div>').join('')||'<p class="small">暂无客户
+档案；保存收费单后会自动建立。</
+p>';document.querySelectorAll('[data-customer]')
+.forEach(b=>b.onclick=()=>{let
+c=cs[+b.dataset.customer];$
+('customer').value=c.customer||'';$
+('phone').value=c.phone||''；$
+('address').value=c.address||'';$
+('model').value=c.model||'';setTab('edit');toast
+（'客户信息已填
+入')});document.queryselectorAll('[data-customer
+-del]').forEach(b=>b.onclick=()=>{if(confirm('删
+除该客户档案？历史收费单不会删除。')){let
+all=JSON.parse(localStorage.getItem('hwCustomers
+')||'[]');all.splice(+b.dataset.customer,1);loca
+lStorage.setItem('hwCustomers',JSoN.stringify(al
+l));renderCustomers()}})};function
+renderCatalog(){let
+cs=JSON.parse(localStorage.getItem('hwCatalog')|
+|'[]');$
+('catalogList').innerHTML=cs.map((c,i)=>`<div
+class="history-item"><strong>${esc(c[O])}</
+strong><div class="small">单位：${esc(c[1])}默认
+单价：${money(c[2])}</div><button class="danger"
+data-catalog-del="${i}" style="margin-top:8px">
+删除项目</button></div>`).join('')|l'<p
+class="small">自定义项目库为空。</
+p>';document.querySelectorAll('[data-catalog-del
+]').forEach(b=>b.onclick=()=>{let
+a=JSON.parse(localStorage.getItem('hwCatalog')||
+'[]');a.splice(+b.dataset.catalogDel,1);localSto
+rage.setItem('hwCatalog',JSON.stringify(a));rend
+erCatalog()})};$('addCatalog').onclick=()=>{let
+name=val('catalogName'),unit=val('catalogunit')|
+|'个',price=Math.max(0,Number(val('catalogprice'
+))||0)；if(!name){toast('请先填写项目名称')；return}
+let
+a=JSON.parse(localStorage.getItem('hwCatalog')|l
+'[]');let
+i=a.findIndex(x=>x[0]===name);if(i>=0)a[i]=[name
+unit,price];else
+a.push([name,unit,price]);localStorage.setItem('
+hwCatalog',JSoN.stringify(a));$
+('catalogName').value='';renderCatalog();toast('
+项目已加入项目库')};
+$('qrupload').onchange=e=>{let
+f=e.target.files[0];if(!
+f)return;if(f.size>2*1024*1024){toast('二维码图片
+请控制在2MB以内')；return}let r=new
+FileReader();r.onload=()=>{settings.qrData=r.res
+ult;localStorage.setItem('hwsettings',JSoN.strin
+gify(settings));renderInvoice();toast('收款二维码
+已载入')};r.readAsDataURL(f)}；$
+('clearQr').onclick=()=>{settings.qrData=''; loca
+lStorage.setItem('hwsettings',JSON.stringify(set
+tings));renderInvoice();toast('已清除收款二维码‘)};
+$('stampupload').onchange=e=>{let
+f=e.target.files[o];if(!
+f)return;if(f.size>2*1024*1024){toast('图片请控制
+在2MB以内');return}let r=new
+FileReader();r.onload=()=>{settings.stampData=r.
+result;localStorage.setItem('hwsettings',JSoN.st
+ringify(settings));renderInvoice();toast('印章图
+片已载入')};r.readAsDataURL(f)};
+$('exportAll').onclick=()=>download('热水器收费单
+备
+份.json',JSoN.stringify({bills:Json.parse(localst
+orage.getItem('hwBills')||'[]'),customers: JSON.p
+arse(localStorage.getItem('hwCustomers')||'[]'),
+catalog:JSON.parse(localStorage.getItem('hwCatal
+og')||'[]'),settings,design},null,2),'applicatio
+n/json');$
+('exportone').onclick=()=>download((val('billNo'
+)||‘收费单‘）
++'.json',JSoN.stringify(getData(),null,2),'appli
+cation/json');function
+download(name,content, type){let
+a=document.createElement('a');a.href=URL.createo
+bjectURL(new Blob([content],
+{type}));a.download=name;a.click();setTimeout(()
+=>URL.revokeobjectURL(a.href),1000)}$
+('importBtn').onclick=()=>$
+('importFile').click();
+$('importFile').onchange=e=>{
+const f=e.target.files[o]; if(!f)return;
+const r=new FileReader();
+r.onload=()=>{
+ try{
+const o=JSON.parse(r.result);
+if(Array.isArray(o))
+localstorage.setItem('hwBills',JsoN.stringify(o)
+);
+else {
+if(o.bills)localStorage.setItem('hwBills',JSON.s
+tringify(o.bills));
+if(o.customers)localstorage.setItem('hwCustomers
+',JSoN.stringify(o.customers));
+if(o.catalog)localStorage.setItem('hwCatalog',Js
+oN.stringify(o.catalog));
+if(o.settings)
+{settings={...settings,...o.settings};localStora
+ge. setItem('hwSettings',JSoN.stringify(settings)
+);loadSettings()}
+if(o.design)
+{design=o.design;localStorage.setItem('hwDesign
+,JSON.stringify(design))}
+renderlistory();renderCustomers();renderCatalog(
+)；toast('备份导入成功‘）；
+}catch(err){toast('文件格式不正确‘)}
+};
+r.readAsText(f);
+};
+$('billNo').value=genNo();$
+('billDate').value=today();loadSettings();render
+Catalog();design=JSON.parse(localStorage.getItem
+('hwDesign')||'{}');presets.slice(0,3).forEach(p
+3]}));renderInvoice();selectDesign('title');
+</script>
+<script>
+1/门店经营增强模块：库存、应收款、经营看板、维修人员业绩
+(（)=>{
+const $=id=>document.getElementById(id),
+read=(k,d=[])=>{try{return
+JSON.parse(localStorage.getItem(k)
+JSoN.stringify(d))}catch(e){return d}},
+write=(k,v)=>localStorage.setItem(k,JSON.stringi
+fy(v))，fmt=n=>'¥'+(Number(n)||0).toFixed(2),
+esc2=s=>String(s??'').replace(/[&<>"']/
+g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','n':'&q
+uot;',"1":'&#39;'}[c]))，today2=()=>new
+Date().toISoString().slice(0,10);
+const nav=document. querySelector('.tabs');
+const newTabs=[['dashboard'，'经营看板’]，
+['inventory'，'库存管理']，['sales'，'销售出库']，
+['receivables','应收款‘]，['reports'，'业绩报表‘]]；
+newTabs.forEach(([id,label])=>{let
+b=document.createElement('button');b.dataset. tab
+=id;b.textcontent=label;nav.appendchild(b);b.add
+EventListener('click',
+()=>{window.setTab(id);refresh(id)})});
+const main=document.queryselector('main.wrap');
+main.insertAdjacentHTML('beforeend',
+<section class="panel" id="dashboard"><div
+class="card"><h2>门店经营看板</h2><div
+class="grid" id="dashCards"></div><p
+class="small">统计根据本机保存的收费单计算；请定期导出
+备份。</p><div id="dashDetails"></div></div></
+section>
+<section class="panel" id="inventory"><div
+class="card"><h2>库存与配件管理</h2><p
+class="small">添加库存商品后，保存收费单时若项目名称匹
+配库存商品，会自动扣减用量；修改已保存单据时会按差额调
+整。手动出库也会计入库存。</p><div class="grid"><div
+class="field"><label>商品/配件名称</label><input
+id="stockName"placeholder="例如：燃气阀"></
+div><div class="field"><label>单位</label><input
+id="stockUnit" placeholder="个/台/根"
+value="个"></div><div class="field"><label>现有库
+存数量</label><input id="stockQty"type="number"
+min="0" step="0.01" value="O"></div><div
+class="field"><label>成本单价（元)</label><input
+id="stockCost" type="number" min="0" step="0.01"
+value="0"></div><div class="field"><label>销售单
+价（元)</label><input id="stockprice"
+type="number" min="O" step="0.01" value="0"></
+div><div class="field"
+style="align-self:end"><button id="stockAdd">添
+加/更新库存商品</button></div></div><div
+id="stockList"></div><hr
+style="border:0;border-top:1px solid
+var(--line);margin:16px 0"><h2>手动出库/盘点调整
+</h2><div class="grid"><div
+class="field"><label>选择商品</label><select
+id="stockMoveItem"></select></div><div
+class="field"><label>数量（出库填正数，盘盈填负数)</
+label><input id="stockMoveQty" type="number"
+step="0.01" value="1"></div><div class="field
+wide"><label>原因/备注</label><input
+id="stockMoveNote"placeholder="例如：零售出库、损
+耗、盘点调整"></div></div><div
+class="actions"><button id="stockMoveBtn">确认库
+存调整</button><button class="secondary"
+id="stockLedgerBtn">查看出入库记录</button></
+div><div id="stockLedger"></div></div></section>
+<section class="panel" id="sales"><div
+class="card"><h2>销售出库单</h2><p class="small">
+用于门店配件零售或商品销售。保存后自动扣减库存，并生成独
+立销售记录；与安装维修收费单分开统计。</p><div
+class="grid"><div class="field"><label>销售单号</
+label><input id="saleNo" readonly></div><div
+class="field"><label>日期</label><input
+id="saleDate" type="date"></div><div
+class="field"><label>客户姓名</label><input
+id="saleCustomer" placeholder="客户姓名（选填)"></
+div><div class="field"><label>联系电话</
+label><input id="salephone"placeholder="联系电话
+(选填)"></div><div class="field"><label>商品/配件
+</label><select id="saleItem"></select></
+div><div class="field"><label>数量</label><input
+id="saleQty" type="number" min="0.01"
+step="0.01" value="1"></div><div
+class="field"><label>销售单价（元)</label><input
+id="salePrice" type="number" min="0" step="0.01"
+value="0"></div><div class="field"><label>收款方
+式</label><select id="salePayment"><option>现金</
+option><option>微信</option><option>支付宝</
+option><option>银行卡</option><option>未收款<1
+option></select></div><div class="field"><label>
+本次已收（元)</label><input id="salepaid"
+type="number" min="0" step="0.01" value="0"></
+div><div class="field"><label>备注</label><input
+id="saleNote" placeholder="出库用途/备注"></div></
+div><div class="row"
+style="margin-top:12px"><div><div class="small">
+销售金额</div><div class="total"
+id="saleTotal">¥0.00</div></div><button
+id="saveSale">保存销售出库单</button><button
+class="secondary" id="newsale">新建销售单</
+button></div><h2 style="margin-top:18px">销售出库
+历史</h2><div id="salesList"></div></div></
+section>
+<section class="panel" id="receivables"><div
+class="card"><h2>客户应收款管理</h2><p
+class="small">已收金额可在开单时填写；旧单据若没有已收
+金额字段，会按收款方式估算：选择“未收款”按未收处理，其他
+方式默认视为已收全款。</p><div class="grid"><div
+class="field"><label>搜索单号/客户/电话</
+label><input id="arSearch" placeholder="输入关键
+词"></div><div class="field"><label>收款状态</
+label><select id="arFilter"><option value="all">
+全部</option><option value="due">有欠款</
+option><option value="paid">已结清</option></
+select></div></div><div id="arsummary"
+class="grid"></div><div id="arList"></div></
+div></section>
+<section class="panel" id="reports"><div
+class="card"><h2>维修人员业绩与月度报表</h2><div
+class="grid"><div class="field"><label>统计月份</
+label><input id="reportMonth" type="month"></
+div><div class="field"><label>维修人员（可选）</
+label><input id="reportworker" placeholder="留空
+查看全部人员"></div></div><div
+class="actions"><button id="runReport">生成报表</
+button><button class="secondary"
+id="exportReport">导出报表CSV</button></div><div
+id="reportSummary" class="grid"
+style="margin-top:12px"></div><div
+id="reportTable"></div></div></section>`);
+1/ tab logic is centralized here so the original
+tabs and new tabs work together
+window.setTab=function(name)
+{document.querySelectorAll('.panel').forEach(p=>
+p.classList.toggle('active',p.id===name)); docume
+nt.querySelectorAll('.tabs
+button').forEach(b=>b.classList.toggle('active',
+b.dataset.tab===name));if(name==='preview'&&wind
+ow.renderInvoice)window.renderInvoice();refresh(
+name)};
+const originalSetTab=window.setTab;
+1/ Existing first script binds old tab click
+handlers; replace handlers to avoid old function
+overriding enhanced tabs.
+nav.querySelectorAll('button').forEach(b=>{b.onc
+lick=()=>{window.setTab(b.dataset.tab)}});
+function bills(){return read('hwBills',[])}
+function inventory(){return read('hwInventory',
+[])} function ledger(){return
+read('hwStockLedger',[])}
+function paidof(b)
+{if(Number.isFinite(Number(b.paidAmount))&&b.pai
+dAmount!==undefined)return
+Math.max(0,Math.min(Number(b.total)||
+0,Number(b.paidAmount)||0));return
+b.payment==='未收款'?0:(Number(b.total)||0)}
+function dueof(b){return Math.max(0,
+(Number(b.total)||0)-paidof(b))}
+function card(label,value,sub=''){return `<div
+class="history-item"><div class="small">${label}
+</div><strong
+style="font-size:22px;color:var(--primary)">$
+{value}</strong>${sub?`<div class="small">${sub}
+</div>`:''}</div>`}
+function renderDashboard(){let
+bs=bills(),today=today2(),month=today.slice(0,7)
+,todayBills=bs.filter(b=>(b.date||'').slice(0,10
+)===today),monthBills=bs.filter(b=>(b.date||'').
+slice(0,7)===month),revenue=monthBills.reduce((s
+,b)=>s+paidOf(b),0)+sales().filter(x=>(x.date||'
+').slice(0,7)===month).reduce((s,×)=>s+
+(Number(x.paid)|l
+0)),0),low=inventory().filter(x=>Number(x.qty)<=
+Number(x.warnAt??3));$
+('dashCards').innerHTML=card('今日单
+据'，todayBills.length+'张'，`开单金额$
+{fmt(todayBills.reduce((s,b)=>s+
+(Number(b.total)||0),0))}`)+card('本月单
+据'，monthBills.length+'张'，本月实收$
+{fmt(revenue)}`)+card('客户欠款'，fmt(due），$
+{bs.filter(b=>dueof(b)>0).length}张单据有欠款`)
++card('库存预警'，low.length+'
+项'，low.map(x=>esc2(x.name)).join('、')||'库存状态
+正常');$('dashDetails').innerHTML='<h2
+style="margin-top:16px">最近单据</
+h2>'+bs.slice().sort((a,b)=>(b.savedAt||'').loca
+leCompare(a.savedAt||'')).slice(0,5).map(b=>`<di
+v class="history-item"><strong>$
+{esc2(b.customer||'未填写客户')}·${fmt(b.total)}
+</strong><div class="small">${esc2(b.billNO)}$
+{esc2(b.date)}欠款${fmt(dueof(b))}</div></
+div>`).join('')||'<p class="small">暂无收费单。</
+p>'}
+function renderInventory(){let arr=inventory();$
+('stockList').innerHTML=arr.map((x,i)=>`<div
+class="history-item"><strong>${esc2(x.name)}
+<span style="color:$
+{Number(x.qty)<=Number(x.warnAt??
+3)?'#c83d4d':'#1769aa'}">库存${Number(x.qty)||0}
+${esc2(x.unit||'个')}</span></strong><div
+class="small">成本${fmt(x.cost)}销售价$
+{fmt(x.price)}库存成本${fmt((Number(x.qty)|1
+0)*(Number(x.cost)||0))}</div><div
+class="actions" style="margin-top:8px"><button
+class="secondary" data-stock-edit="${i}">编辑</
+
+button><button class="danger" data-stock-del="$
+{i}">删除</button></div></div>`).join('')||'<p
+class="small">还没有库存商品，请先添加。</p>';$
+('stockMoveItem').innerHTML=arr.map(x=>`<option
+value="${esc2(x.id)}">${esc2(x.name)}（库存$
+{x.qty})</option>`).join('');$
+('stockList').querySelectorAll('[data-stock-edit
+]').forEach(b=>b.onclick=()=>{let
+x=arr[+b.dataset.stockEdit];$
+('stockName').value=x.name;$
+('stockUnit').value=x.unit;$
+('stockQty').value=x.qty;$
+('stockCost').value=x.cost;$
+('stockPrice').value=x.price;$
+('stockAdd').dataset.editId=x.id;window.scrollTo
+（{top:0,behavior:'smooth'})});$
+('stockList').querySelectorAll('[data-stock-del]
+').forEach(b=>b.onclick=()=>{if(confirm('删除该库
+存商品？历史出入库记录不会删除。'))
+{write('hwInventory',inventory().filter(x=>x.id!
+==arr[+b.dataset.stockDel].id));renderInventory(
+)}})}
+function logStock(item,delta,reason, ref=''){let
+1=ledger();1.unshift({id:'STK'+Date.now(),date:t
+oday2(),itemId:item.id,name:item.name,delta,qtyA
+fter:item.qty,reason,ref});write('hwStockLedger'
+l.slice(0,2000))}
+$('stockAdd').onclick=()=>{let name=$
+('stockName').value.trim();if(!name){alert('请填
+写商品名称')；return}let a=inventory()，id=$
+('stockAdd').dataset.editId,old=a.find(x=>x.id==
+=id);if(old){old.name=name;old.unit=$
+('stockUnit').value.trim()||'个';old.qty=Math.ma
+x(0,Number($('stockQty').value)||
+0);old.cost=Math.max(0,Number($
+('stockUnit').value.trim()||'个';old.qty=Math.ma
+x(0,Number($('stockQty').value)||
+0);old.cost=Math.max(0,Number($
+('stockCost').value)|
+0);old.price=Math.max(0,Number($
+('stockPrice').value)||0);delete $
+('stockAdd').dataset.editId}else{let
+same=a.find(x=>x.name===name);if(same
+{same.unit=$
+('stockUnit').value.trim()||'个';same.qty=Math.m
+ax(0,Number($('stockQty').value)||
+0); same.cost=Math.max(0,Number($
+('stockCost').value)||
+0);same.price=Math.max(0,Number($
+('stockPrice').value)||0)}else
+a.push({id:'INV'+Date.now(),name,unit:$
+('stockunit').value.trim()||'个',qty:Math.max(o，
+Number($('stockQty').value)||
+0),cost:Math.max(0,Number($
+('stockCost').value)|
+0),price:Math.max(0,Number($
+('stockPrice').value)||0),warnAt:3})}
+write('hwInventory',a);let cat=read('hwCatalog',
+[]),ci=cat.findIndex(c=>c[O]===name);let
+saved=a.find(x=>x.name===name);if(saved)
+{if(ci>=0)cat[ci]=[saved.name,saved.unit,saved.p
+rice];else
+cat.push([saved.name, saved.unit,saved.price]);wr
+ite('hwCatalog',cat)}$
+('stockName').value='';renderInventory();alert('
+库存商品已保存；已同步到收费单项目库‘)};
+$('stockMoveBtn').onclick=()=>{let id=$
+('stockMoveItem').value,delta=Number($
+('stockMoveQty').value)||
+0,a=inventory(),x=a.find(v=>v.id===id);if(!x)
+{alert('请先添加库存商品')；return}if(delta===0)
+{alert('请输入非零数量');return}let
+change=delta>0?-delta:Math.abs(delta);//
+positive means out; negative means stock-in/
+stock gain
+if(x.qty+change<0){if(!confirm('本次出库会导致库存
+为负数，仍然继续吗？'))return}
+x.qty=Number((x.qty+change).toFixed(2));write('h
+wInventory',a);logStock(x,change,$
+('stockMoveNote').value.trim()||(change<0?'手动
+入库’:'手动出库')）；$
+('stockMoveNote').value='';renderInventory();ale
+rt('库存已调整')};
+$('stockLedgerBtn').onclick=()=>{$
+('stockLedger').innerHTML='<h2
+style="margin-top:14px">最近出入库记录</
+h2>'+ledger().slice(0,50).map(l=>`<div
+class="history-item"><strong>${esc2(l.name)}$
+{Number(l.delta)>0?'入库+':'变动‘}$
+{Number(l.delta)}</strong><div class="small">$
+{esc2(l.date)}调整后库存${l.qtyAfter}$
+{esc2(1.reason||'')}${esc2(1.ref||'')}</div></
+div>`).join('')||'<p class="small">暂无出入库记录。
+</p>'};
+1/ Hook save: preserve original save behavior,
+then apply inventory deltas and paid/debt
+fields.
+const saveButton=$('saveBtn');const
+priorSave=saveButton.onclick;saveButton.onclick=
+function(){const no=$('billNo').value;const
+before=bills().find(b=>b.billNo===no);if(typeof
+priorSave==='function')priorSave();let
+bs=bills(),idx=bs.findIndex(b=>b.billNo===no);if
+(idx<0)return;let b=bs[idx];let paidInput=$
+('paidAmount');let paid=paidInput?
+Math.max(0,Math.min(Number(b.total)||
+0,Number(paidInput.value)||0)):(b.payment==='未收
+款'?0:Number(b.total)|l
+0);b.paidAmount=paid;b.dueAmount=Math.max(0,
+(Number(b.total)||0)-paid);const
+oldMap=before?.stockDeducted||{},newMap={};let
+inv=inventory();(b.items||[]).forEach(it=>{let
+x=inv.find(z=>z.name.trim().toLowerCase()===Stri
+ng(it.name||'').trim().toLowerCase());if(x){let
+q=Math.max(0,Number(it.qty)||
+0);newmap[x.id]=(newmap[x.id]||
+0)+q}});Object.keys({...oldMap,...newMap}).forEa
+ch(id=>{let delta=(Number(oldMap[id])||
+0)-(Number(newMap[id])||0);if(!delta)return;let
+x=inv.find(z=>z.id===id);if(x)
+{x.qty=Number((Number(x.qty)
++delta).toFixed(2));logStock(x,delta,delta<0?'收
+费单自动扣减’：'收费单修改返还库
+存'，no)}});b.stockDeducted=newmap;bs[idx]=b;writ
+e('hwBills',bs);write('hwInventory',inv);if(wind
+ow.renderInvoice)window.renderInvoice();refresh(
+'dashboard')};
+11 Add paid amount field into the bill form;
+preserve original save and display current
+amount on new/edit records.
+const
+payGrid=document.queryselector('#payment').close
+st('.grid');payGrid.insertAdjacentHTML('beforeen
+d','<div class="field"><label>本次已收金额（元)</
+label><input id="paidAmount" type="number"
+min="0" step="0.01" value="0"></div><div
+class="field"><label>剩余欠款（自动计算）</
+label><input id="dueAmountDisplay" readonly
+value="￥0.00"></div>');
+function syncPaid(){let total=Number(($
+('grandTotal').textcontent||'').replace(/
+[^0-9.]/g,''))||0;let
+paid=Math.max(0,Math.min(total,Number($
+('paidAmount').value)||0));$
+('dueAmountDisplay').value=fmt(Math.max(0,total-
+paid))}
+$
+('paidAmount').addEventListener('input', syncPaid
+);$
+('discount').addEventListener('input',syncPaid);
+$('payment').addEventListener('change',()=>{if($
+('payment').value==='未收款')$
+('paidAmount').value='0';else if(Number($
+('paidAmount').value)===0){let total=Number(($
+('grandTotal').textcontent||'').replace(/
+[^0-9.]/g,''))||0；$
+('paidAmount').value=total.toFixed(2)}
+syncPaid()});
+I/ Fill in payment fields whenever a saved
+record is opened; wrap the original fillData.
+if(typeof window.fillData==='function'){const
+oldFill=window.fillData;window.fillData=function
+(d){oldFill(d);$
+('paidAmount').value=(d.paidAmount!==undefined?
+d.paidAmount:(d.payment==='未收款'?0:
+(Number(d.total)||0))).toFixed(2);syncPaid()}}
+1/ Make sure totals and invoice refresh keep the
+amount due display current.
+const oldCalc=window.calc;if(typeof
+oldCalc==='function'){window.calc=function(){let
+r=oldCalc();setTimeout(syncPaid,0);return r}}
+function renderAR(){let q=($
+('arSearch').value||'').toLowerCase(),filter=$
+('arFilter').value;let
+rows=[...bills().map(b=>({kind:'bill',key:b.bill
+No,no:b.billNo,date:b.date,customer:b.customer,p
+hone: b.phone,total:Number(b.total)|
+0,paid:paidof(b)})),...sales().map(x=>({kind:'sa
+le',key:x.saleNo,no:x.saleNo,date:x.date,custome
+r:x.customer,phone:x.phone,total:Number(x.total)
+||0,paid:Number(x.paid)|
+0}))].map(x=>({...x,due:Math.max(o,x.total-x.pai
+d)})).filter(x=>[x.no,x.customer,x.phone].join(
+').toLowerCase().includes(q)).filter(x=>filter==
+='due'?x.due>0:filter==='paid'?
+x.due<=0:true).sort((a,b)=>(b.date||'').localeco
+mpare(a.date||''));let
+totalDue=rows.reduce((s,b)=>s+b.due,0),totalPaid
+=rows.reduce((s,b)=>s+b.paid,o);$
+('arSummary').innerHTML=card（'筛选范围已
+收'，fmt(totalPaid))+card('筛选范围欠
+款'，fmt(totalDue));$
+('arList').innerHTML=rows.map(b=>`<div
+class="history-item"><strong>$
+{esc2(b.customer||'未填写客户'）}·欠款$
+{fmt(b.due)}</strong><div class="small">$
+{esc2(b.no)} ${esc2(b.date)}$
+{b.kind==='sale'?'销售出库'：'安装维修'}总额$
+{fmt(b.total)}已收${fmt(b.paid)}</div><div
+class="grid" style="margin-top:8px"><div
+class="field"><label>本次补收金额</label><input
+type="number" min="0" step="0.01" id="collect-$
+{esc2(b.key)}" value="${b.due.toFixed(2)}"></
+div><div class="field"
+style="align-self:end"><button data-collect="$
+{esc2(b.key)}"data-kind="${b.kind}">登记收款<1
+button></div></div></div>`).join('')|l'<p
+class="small">没有符合条件的单据。</p>'；$
+('arList').querySelectorAll('[data-collect]').fo
+rEach(btn=>btn.onclick=()=>{let
+no=btn.dataset.collect,amt=Math.max(0,Number($
+('collect-'+no).value)|
+0);if(btn.dataset.kind==='sale'){let
+all=sales(),b=all.find(x=>x.saleNo===no);if(!
+b)return;b.paid=Math.min(Number(b.total)||0,
+(Number(b.paid)||
+0)+amt);b.due=Math.max(0,b.total-b.paid);b.payme
+nt=b.due===0?(b.payment==='未收款'?'现
+金':b.payment):'未收款'；b.note=(b.note?
+b.note+'；':'')+'补收'+fmt(amt)+'('+today2(）
++')';write('hwSalesorders',all)}else{let
+all=bills(),b=all.find(x=>x.billNo===no);if(!
+b)return;let
+old=paidof(b);b.paidAmount=Math.min(Number(b.tot
+al)||0,old+amt);b.dueAmount=Math.max(0,
+(Number(b.total)|
+0)-b.paidAmount);b.payment=b.dueAmount===0?
+(b.payment==='未收款'?’现金'：b.payment）：'未收
+款';b.payNote=(b.payNote?b.payNote+'；':'')+'补收
+'+fmt(amt)+'('+today2()
++')';write('hwBills',all)}
+renderAR();renderDashboard();alert('收款已登
+记‘)})}
+function reportData(){let month=$
+('reportmonth').value||
+today2().slice(0,7),worker=($
+('reportworker').value||'').trim().tolowerCase()
+,bs=bills().filter(b=>(b.date||'').slice(0,7)===
+month&&(!worker|
+String(b.worker||'').toLowerCase().includes(work
+er)));let map={};bs.forEach(b=>{let
+k=b.worker||'未填写维修人员'；map[k]??
+={worker:k,count:0,total:0,paid:0,due:0};map[k].
+count++;map[k].total+=Number(b.total)||
+0;map[k].paid+=paidof(b);map[k].due+=dueof(b)});
+return
+{month,bs,rows:object.values(map).sort((a,b)=>b
+total-a.total)}}
+function renderReport(){let r=reportData();$
+额',fmt(r.bs.reduce((s,b)=>5+(Number(b.total)||
+0),0)))+card('本月实
+收',fmt(r.bs.reduce((s,b)=>s+paidof(b)，0)))
++card('本月欠
+款'，fmt(r.bs.reduce((s,b)=>s+dueof(b),0)));$
+('reportTable').innerHTML='<div
+class="tablewrap"><table><thead><tr><th>维修人员
+</th><th>单数</th><th>开单金额</th><th>已收金额</
+th><th>未收金额</th></tr></
+thead><tbody>'+r.rows.map(x=>`<tr><td>$
+{esc2(x.worker)}</td><td>${x.count}</td><td>$
+{fmt(x.total)}</td><td>${fmt(x.paid)}</td><td>$
+{fmt(x.due)}</td></tr>`).join('')+'</tbody></
+table></div>'}
+$('runReport').onclick=renderReport;$
+('exportReport').onclick=()=>{let
+r=reportData(),csv='维修人员，单数，开单金额，已收金额，未
+收金额
+\n'+r.rows.map(x=>[x.worker,x.count,x.total.toFi
+xed(2),x.paid.toFixed(2),x.due.toFixed(2)].map(v
+=>'"'+String(v).replace(/"/g，'"n')
++'"').join(',')).join('\n');download('门店业绩报表
+_'+r.month+'.csv','\ufeff'+csv,'text/
+csv;charset=utf-8')};
+$('arsearch').oninput=renderAR;$
+('arFilter').onchange=renderAR;$
+('reportMonth').value=today2().slice(0,7);
+1/ Include inventory and stock ledger in full
+backups and restore them when available.
+$('exportAll').onclick=()=>download('热水器门店完
+整备
+份.json',JSON.stringify({bills:bills(),customers:
+read('hwCustomers'),catalog:read('hwCatalog'), se
+ttings:read('hwSettings',
+{}),design:read('hwDesign',
+{}),inventory:inventory(),stockLedger:ledger(),s
+alesorders:sales()},null,2),'application/json');
+$('importFile').onchange=e=>{const
+f=e.target.files[0];if(!f)return;const rr=new
+FileReader();rr.onload=()=>{try{const
+o=JSON.parse(rr.result);if(o.bills)write('hwBill
+s',o.bills);if(o.customers)write('hwCustomers',o
+.customers);if(o.catalog)write('hwCatalog',o.cat
+alog);if(o.settings)write('hwsettings',o.setting
+s);if(o.design)write('hwDesign',o.design);if(o.i
+nventory)write('hwInventory',o.inventory);if(o.s
+tockLedger)write('hwStockLedger',o.stockLedger);
+if(o.salesorders)write('hwSalesorders',o.salesor
+ders);alert('备份导入成功')；refresh('dashboard')}
+catch(err){alert('导入失败：文件格式不正确’)}
+e.target.value=''};rr.readAsText(f)};
+function sales(){return read('hwsalesorders',
+[])}
+function newsaleNo(){return
+'SO'+today2().replace(/-/g，'')
++'-'+String(Date.now()).slice(-5)}
+function updateSaleItems(){let a=inventory();$
+('saleItem').innerHTML=a.map(x=>`<option
+value="${esc2(x.id)}">${esc2(x.name)}（库存$
+{x.qty})</option>`).join('');let
+x=a.find(v=>v.id===$('saleItem').value);if(x)$
+('salePrice').value=Number(x.price)||
+0;calcSale()}
+function calcSale(){let
+total=Math.max(0,Number($('saleQty').value)|l
+0)*Math.max(0,Number($('saleprice').value)||0);$
+('saleTotal').textContent=fmt(total);if($
+('salePayment').value!=='未收款'&&Number($
+('salePaid').value)===0)$
+('salePaid').value=total.toixed(2)}
+function rendersales(){let a=sales():$
+('salesList').innerHTML=a.slice().sort((x,y)=>(y
+.date||'').localeCompare(x.date||'')).map(x=>`<d
+iv class="history-item"><strong>$
+{esc2(x.customer||'零售客户')}·${fmt(x.total)}
+</strong><div class="small">${esc2(x.saleNo)}$
+{esc2(x.date)}${esc2(x.itemName)}x${x.qty}
+已收${fmt(x.paid)}欠款$
+{fmt(Math.max(0,x.total-x.paid))}</div><div
+class="small">${esc2(x.note||'')}</div><button
+class="danger" data-sale-del="${esc2(x.saleNo)}"
+style="margin-top:8px">删除销售记录（不自动回滚库存)
+</button></div>`).join('')||'<p class="small">暂
+无销售出库单。</p>';$
+('salesList').querySelectorAll('[data-sale-del]'
+).forEach(b=>b.onclick=()=>{if(confirm('确定删除该
+销售记录？已扣减的库存不会自动恢复，请确认是否需要手动盘
+点。'))
+{write('hwSalesorders',sales().filter(x=>x.saleN
+==b.dataset.saleDel));renderSales();renderDashbo
+ard(）}})}
+function initsale(){$
+('saleNo').value=newsaleNo();$
+('saleDate').value=today2();$
+('saleCustomer').value='';$
+('salephone').value='';$('saleQty').value='1'；$
+('salePaid').value='0';$
+('saleNote').value='';updateSaleItems()}
+$
+('saleItem').addEventListener('change',updateSal
+eItems);['saleQty','salePrice'].forEach(id=>$
+(id).addEventListener('input',calcSale));$
+('salePayment').addEventListener('change',
+()=>{if($('salePayment').value==='未收款')$
+('salePaid').value='0';else $
+('salePaid').value=(Number($
+('saleTotal').textContent.replace(/[^0-9.]/
+g,''))||0).toFixed(2）})；
+$('saveSale').onclick=()=>{let
+inv=inventory(),item=inv.find(x=>x.id===$
+('saleItem').value);if(!item){alert('请先在库存管
+理中添加商品')；return}let qty=Math.max(o，Number($
+('saleQty').value)||0),price=Math.max(0,Number($
+('saleprice').value)||
+0),total=qty*price,paid=Math.max(o,Math.min(tota
+1,Number($('salePaid').value)||0));if(qty<=0)
+{alert('销售数量必须大于0')；return}
+if(item.qty<qty&&!confirm('库存不足，仍然保存并允许
+负库存
+吗？'))return;item.qty=Number((Number(item.qty)-q
+ty).toFixed(2));write('hwInventory',inv);logStoc
+k(item,-qty,'销售出库单'，$('saleNo').value);let
+a=sales();a.unshift({saleNo:$
+('saleNo').value,date:$('saleDate').value||
+today2(),customer:$
+('saleCustomer').value.trim(),phone:$
+('salePhone').value.trim(),itemId:item.id,itemNa
+me:item.name,qty,unit:item.unit,price,total,paid
+due:Math.max(0,total-paid),payment:$
+('salePayment').value,note:$
+('saleNote').value.trim(),savedAt:new
+Date().toISOString()});write('hwSalesorders',a);
+renderInventory();renderSales();renderDashboard(
+);alert('销售出库单已保存，库存已扣减')；initsale()};$
+('newSale').onclick=initsale;
+function refresh(id)
+{if(id==='dashboard')renderDashboard();if(id==='
+inventory')renderInventory();if(id==='sales')
+{updateSaleItems();rendersales()}
+if(id==='receivables')renderAR();if(id==='report
+s')renderReport()}
+l/ initial render and navigation callbacks
+initsale();refresh('dashboard');
+})（);
+</script></body></html>
